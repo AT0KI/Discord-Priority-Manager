@@ -1,4 +1,4 @@
-# Discord Priority Manager Pro
+# Discord Priority Manager Pro     made by ATOKI
 
 <div align="center">
 
