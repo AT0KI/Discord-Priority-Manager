@@ -44,7 +44,7 @@ git init
 git add .
 git commit -m "Initial commit: Discord Priority Manager Pro v1.0.0"
 git branch -M main
-git remote add origin https://github.com/ВАШ_USERNAME/discord-priority-manager.git
+git remote add origin https://github.com/AT0KI/discord-priority-manager.git
 git push -u origin main
 ```
 
@@ -68,11 +68,6 @@ pip install pyinstaller
 pyinstaller DiscordPriorityManager.spec
 # EXE в папке dist/
 ```
-
-## ✏️ Что изменить перед загрузкой
-
-1. **В README.md** замените `yourusername` на ваш GitHub username
-2. **В CHANGELOG.md** обновите дату релиза (если нужно)
 
 ## 📚 Инструкции
 
