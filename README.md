@@ -4,9 +4,9 @@
 
 ![Banner](assets/banner.png)
 
-[![GitHub release](https://img.shields.io/github/v/release/AT0KI/discord-priority-manager?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
+[![GitHub release](https://img.shields.io/github/v/release/AT0KI/discord-priority-manager?style=for-the-badge)](https://github.com/AT0KI/discord-priority-manager/releases)
 [![License](https://img.shields.io/github/license/AT0KI/discord-priority-manager?style=for-the-badge)](LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/AT0KI/discord-priority-manager/total?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
+[![Downloads](https://img.shields.io/github/downloads/AT0KI/discord-priority-manager/total?style=for-the-badge)](https://github.com/AT0KI/discord-priority-manager/releases)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
 **Автоматическое управление приоритетом Discord во время игр**
@@ -39,7 +39,7 @@ Discord Priority Manager Pro — профессиональное приложе
 
 ### Вариант 1: Готовый EXE
 
-1. Перейдите на [Releases](https://github.com/yourusername/discord-priority-manager/releases)
+1. Перейдите на [Releases](https://github.com/AT0KI/discord-priority-manager/releases)
 2. Скачайте `DiscordPriorityManager.exe`
 3. Запустите программу
 4. Готово!
@@ -47,7 +47,7 @@ Discord Priority Manager Pro — профессиональное приложе
 ### Вариант 2: Из исходников
 
 ```bash
-git clone https://github.com/yourusername/discord-priority-manager.git
+git clone https://github.com/AT0KI/discord-priority-manager.git
 cd discord-priority-manager
 pip install -r requirements.txt
 python discord_priority_manager_FIXED.py
@@ -216,8 +216,8 @@ MIT License - см. [LICENSE](LICENSE)
 
 ## 📧 Контакты
 
-- [Issues](https://github.com/yourusername/discord-priority-manager/issues)
-- [Discussions](https://github.com/yourusername/discord-priority-manager/discussions)
+- [Issues](https://github.com/AT0KI/discord-priority-manager/issues)
+- [Discussions](https://github.com/AT0KI/discord-priority-manager/discussions)
 
 ---
 
@@ -227,7 +227,7 @@ MIT License - см. [LICENSE](LICENSE)
 
 ⭐ Поставьте звезду если проект полезен!
 
-[🚀 Скачать](https://github.com/yourusername/discord-priority-manager/releases)
+[🚀 Скачать](https://github.com/AT0KI/discord-priority-manager/releases)
 
 </div>
 
