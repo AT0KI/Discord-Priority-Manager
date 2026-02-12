@@ -1,8 +1,10 @@
-# Discord Priority Manager Pro     made by ATOKI
+# Discord Priority Manager Pro
 
 <div align="center">
 
 ![Banner](assets/banner.png)
+
+<h4>Made by <a href="https://github.com/AT0KI">ATOKI</a></h4>
 
 [![GitHub release](https://img.shields.io/github/v/release/AT0KI/discord-priority-manager?style=for-the-badge)](https://github.com/AT0KI/discord-priority-manager/releases)
 [![License](https://img.shields.io/github/license/AT0KI/discord-priority-manager?style=for-the-badge)](LICENSE)
