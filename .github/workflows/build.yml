@@ -1,0 +1,73 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pyinstaller
+        
+    - name: Build executable with spec file
+      run: |
+        pyinstaller --clean DiscordPriorityManager.spec
+          
+    - name: Create archive
+      run: |
+        Compress-Archive -Path dist/DiscordPriorityManager.exe -DestinationPath DiscordPriorityManager-Windows.zip
+        
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: DiscordPriorityManager-Windows
+        path: DiscordPriorityManager-Windows.zip
+        
+    - name: Create Release
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          DiscordPriorityManager-Windows.zip
+          dist/DiscordPriorityManager.exe
+        body: |
+          ## Discord Priority Manager Pro
+          
+          ### 🎮 Что нового / What's New
+          
+          См. [CHANGELOG.md](CHANGELOG.md) для полного списка изменений.
+          
+          ### 📥 Установка / Installation
+          
+          **Вариант 1**: Скачайте `DiscordPriorityManager.exe` и запустите
+          
+          **Вариант 2**: Скачайте `DiscordPriorityManager-Windows.zip`, распакуйте и запустите
+          
+          ### ⚠️ Требования / Requirements
+          
+          - Windows 10/11 (64-bit)
+          - Права администратора для управления приоритетами процессов
+          
+          ### 🐛 Сообщить об ошибке / Report a Bug
+          
+          [Создать Issue](https://github.com/${{ github.repository }}/issues)
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
