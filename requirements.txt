@@ -1,0 +1,12 @@
+# Discord Priority Manager Pro - Dependencies
+
+# Core dependencies
+psutil>=5.9.0          # Process and system utilities
+pillow>=9.0.0          # Image processing for icons
+pystray>=0.19.0        # System tray integration
+
+# Build dependencies (only for building from source)
+pyinstaller>=5.0.0     # Creating standalone executable
+
+# Optional dependencies
+# pip>=23.0            # Package installer (usually pre-installed)
