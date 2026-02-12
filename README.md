@@ -4,9 +4,9 @@
 
 ![Banner](assets/banner.png)
 
-[![GitHub release](https://img.shields.io/github/v/release/yourusername/discord-priority-manager?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
-[![License](https://img.shields.io/github/license/yourusername/discord-priority-manager?style=for-the-badge)](LICENSE)
-[![Downloads](https://img.shields.io/github/downloads/yourusername/discord-priority-manager/total?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
+[![GitHub release](https://img.shields.io/github/v/release/AT0KI/discord-priority-manager?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
+[![License](https://img.shields.io/github/license/AT0KI/discord-priority-manager?style=for-the-badge)](LICENSE)
+[![Downloads](https://img.shields.io/github/downloads/AT0KI/discord-priority-manager/total?style=for-the-badge)](https://github.com/yourusername/discord-priority-manager/releases)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
 **Автоматическое управление приоритетом Discord во время игр**
