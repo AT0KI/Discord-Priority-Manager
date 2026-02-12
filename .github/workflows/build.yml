@@ -1,6 +1,6 @@
 name: Build and Release
 
-permission:
+permissions:
   contents: write
 
 on:
