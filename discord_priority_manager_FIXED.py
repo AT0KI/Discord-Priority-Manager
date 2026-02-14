@@ -1457,7 +1457,7 @@ class DiscordPriorityManager:
                                     pid=pid,
                                     priority=proc_info['priority_name']
                                 ),
-                                "SUCCESS"
+                                "INFO"  # Используем INFO вместо SUCCESS, так как приоритет не менялся
                             )
 
             if access_denied_count > 0 and access_denied_count == len(processes_info):
@@ -1657,6 +1657,10 @@ class DiscordPriorityManager:
 
         self.process_monitor.tracked_processes.clear()
         self.last_change_time = None
+        
+        # Сбрасываем счетчик исправлений
+        self.process_monitor.reset_corrections()
+        self.update_ui_safe(lambda: self.corrections_label.config(text="0"))
 
         logger.info("Мониторинг остановлен")
 
@@ -2109,7 +2113,9 @@ class DiscordPriorityManager:
         dialog.configure(bg='#2C2F33')
         dialog.resizable(False, False)
         dialog.transient(parent if parent else self.root)
-        dialog.grab_set()
+        
+        # Скрываем окно перед центрированием (избегаем мигания)
+        dialog.withdraw()
 
         # Центрируем окно
         self.center_window(dialog, 450, 200)
@@ -2189,6 +2195,10 @@ class DiscordPriorityManager:
         no_btn.bind('<Enter>', on_enter_no)
         no_btn.bind('<Leave>', on_leave_no)
 
+        # Показываем окно после создания всех виджетов
+        dialog.deiconify()
+        dialog.grab_set()
+
         # Ждём закрытия окна
         dialog.wait_window()
 
@@ -2205,7 +2215,9 @@ class DiscordPriorityManager:
         dialog.configure(bg='#2C2F33')
         dialog.resizable(False, False)
         dialog.transient(parent if parent else self.root)
-        dialog.grab_set()
+        
+        # Скрываем окно перед центрированием (избегаем мигания)
+        dialog.withdraw()
 
         # Центрируем окно
         self.center_window(dialog, 450, 200)
@@ -2258,6 +2270,10 @@ class DiscordPriorityManager:
         ok_btn.bind('<Enter>', on_enter)
         ok_btn.bind('<Leave>', on_leave)
 
+        # Показываем окно после создания всех виджетов
+        dialog.deiconify()
+        dialog.grab_set()
+
         # Ждём закрытия окна
         dialog.wait_window()
 
@@ -2272,7 +2288,9 @@ class DiscordPriorityManager:
         dialog.configure(bg='#2C2F33')
         dialog.resizable(False, False)
         dialog.transient(parent if parent else self.root)
-        dialog.grab_set()
+        
+        # Скрываем окно перед центрированием (избегаем мигания)
+        dialog.withdraw()
 
         # Центрируем окно
         self.center_window(dialog, 450, 200)
@@ -2325,6 +2343,10 @@ class DiscordPriorityManager:
         ok_btn.bind('<Enter>', on_enter)
         ok_btn.bind('<Leave>', on_leave)
 
+        # Показываем окно после создания всех виджетов
+        dialog.deiconify()
+        dialog.grab_set()
+
         # Ждём закрытия окна
         dialog.wait_window()
 
@@ -2339,7 +2361,9 @@ class DiscordPriorityManager:
         dialog.configure(bg='#2C2F33')
         dialog.resizable(False, False)
         dialog.transient(parent if parent else self.root)
-        dialog.grab_set()
+        
+        # Скрываем окно перед центрированием (избегаем мигания)
+        dialog.withdraw()
 
         # Центрируем окно
         self.center_window(dialog, 450, 200)
@@ -2391,6 +2415,10 @@ class DiscordPriorityManager:
 
         ok_btn.bind('<Enter>', on_enter)
         ok_btn.bind('<Leave>', on_leave)
+
+        # Показываем окно после создания всех виджетов
+        dialog.deiconify()
+        dialog.grab_set()
 
         # Ждём закрытия окна
         dialog.wait_window()
