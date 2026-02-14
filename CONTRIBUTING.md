@@ -8,7 +8,7 @@
 
 Если нашли ошибку:
 
-1. Проверьте [Issues](https://github.com/yourusername/discord-priority-manager/issues)
+1. Проверьте [Issues](https://github.com/AT0KI/discord-priority-manager/issues)
 2. Создайте новый Issue с описанием:
    - Версия программы
    - ОС (Windows 10/11, версия)
