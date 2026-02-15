@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>PADGen 4.0.0.0</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+
+  <Company_Info>
+    <Company_Name>ATOKI</Company_Name>
+    <Address_1></Address_1>
+    <Address_2></Address_2>
+    <City_Town></City_Town>
+    <State_Province></State_Province>
+    <Zip_Postal_Code></Zip_Postal_Code>
+    <Country>Ukraine</Country>
+    <Company_WebSite_URL>https://github.com/AT0KI/discord-priority-manager</Company_WebSite_URL>
+    <Contact_Info>
+      <Author_First_Name>ATOKI</Author_First_Name>
+      <Author_Last_Name></Author_Last_Name>
+      <Author_Email>zhylcov@protonmail.com</Author_Email>
+      <Contact_First_Name>ATOKI</Contact_First_Name>
+      <Contact_Last_Name></Contact_Last_Name>
+      <Contact_Email>zhylcov@protonmail.com</Contact_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>zhylcov@protonmail.com</Sales_Email>
+      <Support_Email>zhylcov@protonmail.com</Support_Email>
+      <General_Email>zhylcov@protonmail.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+  </Company_Info>
+
+  <Program_Info>
+    <Program_Name>Discord Priority Manager Pro</Program_Name>
+    <Program_Version>2.0.0</Program_Version>
+    <Program_Release_Month>02</Program_Release_Month>
+    <Program_Release_Day>14</Program_Release_Day>
+    <Program_Release_Year>2026</Program_Release_Year>
+    <Program_Cost_Dollars>0.00</Program_Cost_Dollars>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win10,Win11</Program_OS_Support>
+    <Program_Language>English,Russian,Ukrainian</Program_Language>
+    <Program_Change_Info>Fixed dialog flickering, improved logging, better UI feedback</Program_Change_Info>
+    <Program_Specific_Category>Utilities</Program_Specific_Category>
+    <Program_Category_Class>System Utilities::Other</Program_Category_Class>
+    <Program_System_Requirements>Windows 10/11, 4GB RAM, Python 3.8+ (for source), Discord installed</Program_System_Requirements>
+    <File_Info>
+      <File_Size_Bytes>15728640</File_Size_Bytes>
+      <File_Size_K>15360</File_Size_K>
+      <File_Size_MB>15</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Count></Expire_Count>
+      <Expire_Based_On></Expire_Based_On>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+  </Program_Info>
+
+  <Program_Descriptions>
+    <English>
+      <Keywords>Discord, Priority, Process Manager, Gaming, Performance, CPU, System Utilities, Game Optimization, Background Process, Resource Management</Keywords>
+      <Char_Desc_45>Intelligent Discord priority manager for gaming</Char_Desc_45>
+      <Char_Desc_80>Automatically manage Discord process priority when gaming for better performance</Char_Desc_80>
+      <Char_Desc_250>Discord Priority Manager Pro automatically detects when you're gaming and adjusts Discord's process priority to minimize its impact on game performance. Supports 15+ popular games, features multilingual interface (EN/RU/UK), system tray integration, and real-time monitoring.</Char_Desc_250>
+      <Char_Desc_450>Discord Priority Manager Pro is an intelligent utility that automatically manages Discord's process priority based on your gaming activity. When a supported game is detected, the application lowers Discord's CPU priority to ensure your game runs smoothly. Features include: automatic game detection for 15+ popular titles, real-time process monitoring with CPU/RAM stats, multilingual interface in English, Russian and Ukrainian, system tray integration with status indicators, customizable priority levels, and Windows autostart support. Perfect for gamers who want to use Discord without sacrificing game performance.</Char_Desc_450>
+      <Char_Desc_2000>Discord Priority Manager Pro is a powerful, free utility designed specifically for gamers who use Discord while playing. The application intelligently monitors your system and automatically adjusts Discord's process priority when it detects a supported game running, ensuring optimal gaming performance without manual intervention.
+
+KEY FEATURES:
+• Automatic Game Detection - Supports 15+ popular games including CS2, Valorant, League of Legends, Dota 2, Apex Legends, Fortnite, and many more
+• Smart Priority Management - Dynamically switches between gaming and normal modes with customizable priority levels (IDLE, BELOW_NORMAL, NORMAL)
+• Real-Time Monitoring - View detailed information about Discord processes including PID, CPU usage, RAM consumption, and current priority
+• Multilingual Interface - Full support for English, Russian, and Ukrainian languages with dynamic switching without restart
+• System Tray Integration - Minimizes to tray with color-coded status indicators (green when monitoring, red when stopped)
+• Process Detection - Automatically finds and manages all Discord processes including main app and child processes
+• Customizable Settings - Adjust check intervals, priority levels, and autostart behavior
+• Beautiful UI - Modern Discord-style interface with detailed event logging
+• Windows Integration - Optional autostart with Windows for seamless experience
+
+SUPPORTED DISCORD VERSIONS:
+• Discord Stable
+• Discord PTB (Public Test Build)
+• Discord Canary
+• Discord Development
+
+TECHNICAL HIGHLIGHTS:
+• Optimized multi-threaded architecture for minimal system impact
+• Safe process handling using industry-standard psutil library
+• Rotating log files with automatic cleanup
+• Configuration backup and validation
+• No administrator rights required for basic operation
+
+Perfect for competitive gamers, streamers, and anyone who wants Discord running in the background without affecting their game's FPS or responsiveness. The application is completely free, open-source, and requires no registration or online account.
+
+WHAT'S NEW IN VERSION 2.0.0:
+• Fixed dialog window flickering on open
+• Improved logging with better visual feedback
+• Process priority counter now properly resets on stop
+• Enhanced UI smoothness and responsiveness
+
+Whether you're playing ranked matches, streaming to your community, or just enjoying casual gaming sessions, Discord Priority Manager Pro ensures Discord stays out of your way while keeping you connected.</Char_Desc_2000>
+    </English>
+    <Russian>
+      <Keywords>Discord, Приоритет, Менеджер процессов, Игры, Производительность, CPU, Системные утилиты, Оптимизация игр, Фоновый процесс, Управление ресурсами</Keywords>
+      <Char_Desc_45>Умный менеджер приоритета Discord для игр</Char_Desc_45>
+      <Char_Desc_80>Автоматическое управление приоритетом Discord во время игр для лучшей производительности</Char_Desc_80>
+      <Char_Desc_250>Discord Priority Manager Pro автоматически определяет запуск игр и корректирует приоритет процессов Discord для минимального влияния на производительность. Поддерживает 15+ популярных игр, мультиязычный интерфейс (EN/RU/UK), интеграция с системным треем и мониторинг в реальном времени.</Char_Desc_250>
+      <Char_Desc_450>Discord Priority Manager Pro - интеллектуальная утилита для автоматического управления приоритетом процессов Discord в зависимости от игровой активности. При обнаружении поддерживаемой игры приложение понижает приоритет Discord для плавной работы игры. Возможности: автоопределение 15+ популярных игр, мониторинг процессов с отображением CPU/RAM, мультиязычный интерфейс (английский, русский, украинский), интеграция с системным треем, настраиваемые уровни приоритета, автозагрузка с Windows. Идеально для геймеров, использующих Discord без ущерба производительности.</Char_Desc_450>
+      <Char_Desc_2000>Discord Priority Manager Pro - мощная бесплатная утилита, разработанная специально для геймеров, использующих Discord во время игры. Приложение интеллектуально мониторит вашу систему и автоматически корректирует приоритет процессов Discord при обнаружении запущенной игры, обеспечивая оптимальную производительность без ручного вмешательства.
+
+КЛЮЧЕВЫЕ ВОЗМОЖНОСТИ:
+• Автоматическое определение игр - Поддержка 15+ популярных игр включая CS2, Valorant, League of Legends, Dota 2, Apex Legends, Fortnite и многие другие
+• Умное управление приоритетами - Динамическое переключение между игровым и обычным режимами с настраиваемыми уровнями приоритета (IDLE, BELOW_NORMAL, NORMAL)
+• Мониторинг в реальном времени - Просмотр детальной информации о процессах Discord включая PID, использование CPU, потребление RAM и текущий приоритет
+• Мультиязычный интерфейс - Полная поддержка английского, русского и украинского языков с динамическим переключением без перезапуска
+• Интеграция с системным треем - Сворачивание в трей с цветовой индикацией статуса (зелёный при мониторинге, красный при остановке)
+• Определение процессов - Автоматический поиск и управление всеми процессами Discord включая основное приложение и дочерние процессы
+• Настраиваемые параметры - Регулировка интервалов проверки, уровней приоритета и поведения автозагрузки
+• Красивый интерфейс - Современный Discord-style дизайн с детальным логированием событий
+• Интеграция с Windows - Опциональный автозапуск с Windows для бесшовного опыта
+
+ПОДДЕРЖИВАЕМЫЕ ВЕРСИИ DISCORD:
+• Discord Stable
+• Discord PTB (Public Test Build)
+• Discord Canary
+• Discord Development
+
+ТЕХНИЧЕСКИЕ ОСОБЕННОСТИ:
+• Оптимизированная многопоточная архитектура для минимального влияния на систему
+• Безопасная работа с процессами через индустриальный стандарт psutil
+• Ротация лог-файлов с автоматической очисткой
+• Резервное копирование и валидация конфигурации
+• Не требуются права администратора для базовой работы
+
+Идеально для соревновательных геймеров, стримеров и всех, кто хочет чтобы Discord работал в фоне без влияния на FPS или отзывчивость игры. Приложение полностью бесплатное, с открытым исходным кодом, и не требует регистрации или онлайн-аккаунта.
+
+ЧТО НОВОГО В ВЕРСИИ 2.0.0:
+• Исправлено мигание диалоговых окон при открытии
+• Улучшено логирование с лучшей визуальной обратной связью
+• Счётчик исправлений приоритетов теперь корректно сбрасывается при остановке
+• Повышена плавность работы интерфейса
+
+Независимо от того, играете ли вы в рейтинговые матчи, стримите для своего сообщества или просто наслаждаетесь казуальными игровыми сессиями - Discord Priority Manager Pro гарантирует, что Discord не будет мешать, сохраняя вас на связи.</Char_Desc_2000>
+    </Russian>
+    <Ukrainian>
+      <Keywords>Discord, Пріоритет, Менеджер процесів, Ігри, Продуктивність, CPU, Системні утиліти, Оптимізація ігор, Фоновий процес, Управління ресурсами</Keywords>
+      <Char_Desc_45>Розумний менеджер пріоритету Discord для ігор</Char_Desc_45>
+      <Char_Desc_80>Автоматичне управління пріоритетом Discord під час ігор для кращої продуктивності</Char_Desc_80>
+      <Char_Desc_250>Discord Priority Manager Pro автоматично визначає запуск ігор та коригує пріоритет процесів Discord для мінімального впливу на продуктивність. Підтримує 15+ популярних ігор, мультимовний інтерфейс (EN/RU/UK), інтеграція з системним треєм та моніторинг у реальному часі.</Char_Desc_250>
+      <Char_Desc_450>Discord Priority Manager Pro - інтелектуальна утиліта для автоматичного управління пріоритетом процесів Discord залежно від ігрової активності. При виявленні підтримуваної гри додаток знижує пріоритет Discord для плавної роботи гри. Можливості: автовизначення 15+ популярних ігор, моніторинг процесів з відображенням CPU/RAM, мультимовний інтерфейс (англійська, російська, українська), інтеграція з системним треєм, налаштовувані рівні пріоритету, автозавантаження з Windows. Ідеально для геймерів, які використовують Discord без шкоди продуктивності.</Char_Desc_450>
+      <Char_Desc_2000>Discord Priority Manager Pro - потужна безкоштовна утиліта, розроблена спеціально для геймерів, які використовують Discord під час гри. Додаток інтелектуально моніторить вашу систему та автоматично коригує пріоритет процесів Discord при виявленні запущеної гри, забезпечуючи оптимальну продуктивність без ручного втручання.
+
+КЛЮЧОВІ МОЖЛИВОСТІ:
+• Автоматичне визначення ігор - Підтримка 15+ популярних ігор включаючи CS2, Valorant, League of Legends, Dota 2, Apex Legends, Fortnite та багато інших
+• Розумне управління пріоритетами - Динамічне перемикання між ігровим та звичайним режимами з налаштовуваними рівнями пріоритету (IDLE, BELOW_NORMAL, NORMAL)
+• Моніторинг у реальному часі - Перегляд детальної інформації про процеси Discord включаючи PID, використання CPU, споживання RAM та поточний пріоритет
+• Мультимовний інтерфейс - Повна підтримка англійської, російської та української мов з динамічним перемиканням без перезапуску
+• Інтеграція з системним треєм - Згортання в трей з кольоровою індикацією статусу (зелений при моніторингу, червоний при зупинці)
+• Визначення процесів - Автоматичний пошук та управління всіма процесами Discord включаючи основний додаток та дочірні процеси
+• Налаштовувані параметри - Регулювання інтервалів перевірки, рівнів пріоритету та поведінки автозавантаження
+• Гарний інтерфейс - Сучасний Discord-style дизайн з детальним логуванням подій
+• Інтеграція з Windows - Опціональний автозапуск з Windows для безшовного досвіду
+
+ПІДТРИМУВАНІ ВЕРСІЇ DISCORD:
+• Discord Stable
+• Discord PTB (Public Test Build)
+• Discord Canary
+• Discord Development
+
+ТЕХНІЧНІ ОСОБЛИВОСТІ:
+• Оптимізована багатопотокова архітектура для мінімального впливу на систему
+• Безпечна робота з процесами через індустріальний стандарт psutil
+• Ротація лог-файлів з автоматичним очищенням
+• Резервне копіювання та валідація конфігурації
+• Не потрібні права адміністратора для базової роботи
+
+Ідеально для змагальних геймерів, стрімерів та всіх, хто хоче щоб Discord працював у фоні без впливу на FPS чи відгук гри. Додаток повністю безкоштовний, з відкритим вихідним кодом, і не потребує реєстрації або онлайн-акаунта.
+
+ЩО НОВОГО У ВЕРСІЇ 2.0.0:
+• Виправлено мигтіння діалогових вікон при відкритті
+• Покращено логування з кращим візуальним зворотнім зв'язком
+• Лічильник виправлень пріоритетів тепер коректно скидається при зупинці
+• Підвищено плавність роботи інтерфейсу
+
+Незалежно від того, чи граєте ви в рейтингові матчі, стрімите для свого ком'юніті або просто насолоджуєтесь казуальними ігровими сесіями - Discord Priority Manager Pro гарантує, що Discord не буде заважати, зберігаючи вас на зв'язку.</Char_Desc_2000>
+    </Ukrainian>
+  </Program_Descriptions>
+
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://github.com/AT0KI/discord-priority-manager</Application_Info_URL>
+      <Application_Order_URL></Application_Order_URL>
+      <Application_Screenshot_URL>https://github.com/AT0KI/discord-priority-manager/raw/main/screenshots/main.png</Application_Screenshot_URL>
+      <Application_Icon_URL>https://github.com/AT0KI/discord-priority-manager/raw/main/icon.png</Application_Icon_URL>
+      <Application_XML_File_URL>https://github.com/AT0KI/discord-priority-manager/raw/main/discord_priority_manager_pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://github.com/AT0KI/discord-priority-manager/releases/download/v2.0.0/DiscordPriorityManager_v2.0.0.exe</Primary_Download_URL>
+      <Secondary_Download_URL>https://github.com/AT0KI/discord-priority-manager/releases/download/v2.0.0/DiscordPriorityManager_v2.0.0.zip</Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+
+  <Permissions>
+    <Distribution_Permissions>This software is freeware. You may distribute it freely as long as the original archive is kept intact and unchanged. You may not charge money for this software.</Distribution_Permissions>
+    <EULA>MIT License
+
+Copyright (c) 2026 ATOKI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</EULA>
+  </Permissions>
+
+  <Affiliates>
+    <Affiliates_FORM_Includes_File_Transfer>N</Affiliates_FORM_Includes_File_Transfer>
+    <Affiliates_Version>2.0.0</Affiliates_Version>
+    <Affiliates_URL_Test_Flag>N</Affiliates_URL_Test_Flag>
+    <Affiliates_Email_Use_Type>Optin</Affiliates_Email_Use_Type>
+    <Affiliates_Download_Password></Affiliates_Download_Password>
+    <Affiliates_Vendor_ID></Affiliates_Vendor_ID>
+    <Affiliates_Display_URL></Affiliates_Display_URL>
+  </Affiliates>
+
+  <ASP>
+    <ASP_FORM>Y</ASP_FORM>
+    <ASP_Member>N</ASP_Member>
+    <ASP_Member_Number></ASP_Member_Number>
+  </ASP>
+</XML_DIZ_INFO>
